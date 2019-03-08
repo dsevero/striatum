@@ -18,8 +18,8 @@ test.run(n_steps=1_000, n_episodes=1_000).plot()
 ```
 
 <p align="center">
-  <img width="200" height="200" src="/docs/images/AverageRewardPerStep.svg">
-  <img width="200" height="200" src="/docs/images/PercentageOptimalAction.svg">
+  <img width="400" height="300" src="/docs/images/AverageRewardPerStep.svg">
+  <img width="400" height="300" src="/docs/images/PercentageOptimalAction.svg">
 </p>
 
 # Emphasis on generative processes
