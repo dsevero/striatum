@@ -1,25 +1,20 @@
 from setuptools import find_packages, setup
 
-# TODO: Freeze versions
 install_requires = [
-    'gym',
-    'pandas',
-    'numpy',
-    'matplotlib',
-    'dask'
+    'gym==0.12.0',
+    'pandas==v0.24.1',
+    'numpy==v1.16.2',
+    'matplotlib==v3.0.3',
+    'dask==1.1.3'
 ]
 
-# TODO: Freeze versions
 tests_require = [
-    'pytest',
-    'pytest-cov',
-    'pylava',
-    'pytest-xdist',
-    'ipdb',
+    'pytest==4.3.0',
+    'pylava==0.2.2',
 ]
 
 dev_require = [
-    'ipython'
+    'ipython==7.3.0'
 ]
 
 setup(
