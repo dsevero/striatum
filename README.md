@@ -9,8 +9,7 @@ from striatum.policies import EpsilonGreedy
 from striatum.environments import MultiArmedBandit
 from striatum.analyses import AverageRewardPerStep, PercentageOptimalAction
 
-test = TestBed({'name': 'bandit-egreedy',
-                'policy': EpsilonGreedy(epsilon=0.1),                
+test = TestBed({'policy': EpsilonGreedy(epsilon=0.1),                
                 'env': MultiArmedBandit(n_arms=10)}
                 analyses=[AverageRewardPerStep(), 
                           PercentageOptimalAction()])
