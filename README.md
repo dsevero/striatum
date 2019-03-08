@@ -17,6 +17,10 @@ test = TestBed({'name': 'bandit-egreedy',
 test.run(n_steps=1_000, n_episodes=1_000).plot()
 ```
 
+<p align="center">
+  <img width="576" height="432" src="/docs/images/AverageRewardPerStep.svg">
+</p>
+
 # Emphasis on generative processes
 
 
