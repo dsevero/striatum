@@ -5,7 +5,8 @@ install_requires = [
     'pandas==v0.24.1',
     'numpy==v1.16.2',
     'matplotlib==v3.0.3',
-    'dask==1.1.3'
+    'dask==1.1.3',
+    'seaborn==v0.9.0'
 ]
 
 tests_require = [
