@@ -1,5 +1,7 @@
 # striatum
 
+[![Build Status](https://travis-ci.org/dsevero/striatum.svg?branch=master)](https://travis-ci.org/dsevero/striatum)
+
 <p align="center">
   <img width="250" height="200" src="https://static1.squarespace.com/static/52ec8c1ae4b047ccc14d6f29/t/5750f2472fe1315b8d97fe51/1490697938513/striatum.jpg?format=1500w">
 </p>
