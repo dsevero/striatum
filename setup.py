@@ -6,7 +6,8 @@ install_requires = [
     'numpy==v1.16.2',
     'matplotlib==v3.0.3',
     'dask==1.1.3',
-    'seaborn==v0.9.0'
+    'seaborn==v0.9.0',
+    'cloudpickle'
 ]
 
 tests_require = [
